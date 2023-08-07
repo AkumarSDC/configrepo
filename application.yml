@@ -1,1 +1,9 @@
-
+spring:
+  application:
+    name: CONFIG-DEFAULT
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    serviceUrl:
+      defaultZone: http://localhost:7070/eureka/
