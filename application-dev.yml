@@ -1,3 +1,6 @@
+server:
+  port: 2025
+
 eureka:
   client:
     fetch-registry: true
