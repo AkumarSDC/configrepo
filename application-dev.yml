@@ -1,6 +1,7 @@
 server:
   port: 2025
 
+# Config for Eureka server
 eureka:
   client:
     fetch-registry: true
