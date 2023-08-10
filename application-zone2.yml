@@ -1,0 +1,7 @@
+server:
+  port: 3031
+  
+eureka:
+  instance:
+    metadata-map:
+      zone: zone2
